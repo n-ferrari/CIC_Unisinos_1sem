@@ -55,11 +55,11 @@ C = int(input())
 D = int(input())
 E = int(input())
 
-area_retangulo = B * C / 2
+area_triangulo = B * C / 2
 perimetro_retangulo = A + B + C + D
 area_circulo = pi * E * E
 
-print("A area do retangulo e", area_retangulo)
+print("A area do triangulo e", area_triangulo)
 print("O perimetro do retangulo e", perimetro_retangulo)
 print("A area do circulo e ", area_circulo)
 
