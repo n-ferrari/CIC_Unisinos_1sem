@@ -1,5 +1,5 @@
 #Operacoes matematicas
-'''
+
 A = float(input())
 B = int(input())
 
@@ -7,7 +7,7 @@ print("A multiplicado por B é", A * B)
 print("A dividido por B é", A / B, "mas com duas casas decimais é %.2f" % (A / B))
 print("A mais B é", A + B, "e A menos B é", A - B)
 print("A elevado a B é", A ** B)
-'''
+
 
 #Formula de baskara
 a = int(input("Valor de a: "))
