@@ -1,29 +1,50 @@
-# def matrix_is_valid(x):
-#     s1 = len(x[1])
+# Verifies if 2 matrices are multipliable and multiply them
 
-#     for n in x:
-#         s2 = len(n)
-#         if s1 != s2:
-#             return False
-#     return True
+def matrix_is_valid(x):
+    s1 = len(x[1])
 
-# def matrixes_are_multiplicable(x, y):
-#     return len(x[1]) == len(y)
+    for n in x:
+        s2 = len(n)
+        if s1 != s2:
+            return False
+    return True
 
-x = [[1,1,1], [2,2,2], [1,2,3], [1,2,3]]
-y = [[1,1,1,1], [2,2,2,2], [1,2,3,4]]
-z = [[1,1,1], [1,1,1], [1,1,1]]
-value = 0
+def get_column(M,i):
+    lista = []
+    for line in range(len(M)):
+        lista.append(M[line][i])
+    return lista
 
-# if not matrix_is_valid(x) or not matrix_is_valid(y):
-#     print("As matrizes nao sao validas")
-# elif not matrixes_are_multiplicable(x, y):
-#     print("As matrizes nao sao multiplicaveis")
-# else:
-#     for m in x[0][m]:
-#         print(m)
+def matrices_are_multipliable(x, y):
+    return len(x[1]) == len(y)
 
-for line in range(len(x[0])):
-    for column in range(len(y)):
-        value = value + x[line][column] * y[line][column] 
-#print(x[0][0])
+def sum_product(x, y):
+    result = 0
+    for value in range(len(x)):
+        result = result + x[value] * y[value]
+    return result
+
+def multiply_matrix(x, y):
+    out_list = []
+    for line in range(len(x)):
+        inner_list = []
+        for column in range(len(y[0])):
+            list_column = get_column(y,column)
+            inner_list.append(sum_product(x[line],list_column))
+        out_list.append(inner_list)
+    return(out_list)
+
+
+x = [[1,2,3], [4,5,6]]
+y = [[1,1,1], [2,2,2],[3,3,3]]
+result = []
+
+if not matrix_is_valid(x) or not matrix_is_valid(y):
+    print("Matrices are not valid")
+elif not matrices_are_multipliable(x, y):
+    print("Matrices are not multipliable")
+else:
+    result = multiply_matrix(x,y)
+    print(result)
+
+
