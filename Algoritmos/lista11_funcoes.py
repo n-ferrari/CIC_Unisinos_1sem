@@ -27,20 +27,85 @@ def bhaskara(a, b, c):
             a = int(input("Digite um valor para a diferente de zero."))
 
 
-def confereData(ano, mes, dia):
-    print(ano, mes, dia)
+def confereData():
+    dia = int(input("Digite o dia: "))
+    while dia < 1 or dia > 31:
+        dia = int(input("Digite um dia válido: "))
+
+    mes = int(input("Digite o mês: "))
+    while mes < 1 or mes > 12:
+        mes = int(input("Digite um mês válido: "))
+
+    ano = int(input("Digite um ano entre 0 e 2022:"))
+    while ano < 0 or ano > 2022:
+        ano = int(input("Digite um ano valido: "))
+
+    print(f"\nData escolhida: {dia}/{mes}/{ano} ")
+
+    if mes == 4 or mes == 6 or mes == 9 or mes == 11 and dia == 31:
+        print("Data inválida. Dia 31 não existe neste mês.")
+        return 1
+
+    if mes == 2:
+        if dia > 29:
+            print("Data inválida, fevereiro com mais de 29 dias.")
+            return 1
+        elif dia == 29:
+            if not (ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0):
+                print("Data inválida. O ano nao e bissexto")
+                return 1
+
+    print(f"\nA data escolhida: {dia}/{mes}/{ano} é correta.\n")
 
 
-def tamanhoTexto(texto):
-    print(texto)
+def tamanhoTexto():
+    tamanho = 21
+    while tamanho > 20:
+        texto = input("Digite um texto: ")
+        tamanho = len(texto)
+        if tamanho > 20:
+            print("Texto inválido. Digite um texto com até 20 caracteres")
+
+    if tamanho < 5:
+        print("Texto pequeno")
+    elif tamanho < 15:
+        print("Texto médio")
+    else:
+        print("Texto grande")
 
 
-def analisaCPF(cpf):
-    print(cpf)
+def analisaCPF():
+    cpf = "0"
+    tentativas = 0
+    while ((not cpf.isdigit()) or len(cpf) != 11) and tentativas < 3:
+        cpf = input("Digite seu cpf: ")
+        if (not cpf.isdigit()) or len(cpf) != 11:
+            print("cpf inválido.")
+        else:
+            print("cpf válido")
+        tentativas += 1
+    if tentativas == 3:
+        print("\nNumero maximo de tentativas excedido.")
 
 
-def contaCaracteres(texto):
-    print(texto)
+def contaCaracteres():
+    vogais = 0
+    lista_vogais = ["a", "e", "i", "o", "u"]
+    espacos = 0
+    consoantes_especiais = 0
+
+    texto = input("Digite um texto: ")
+
+    for i in lista_vogais:
+        vogais += texto.count(i)
+
+    espacos = texto.count(" ")
+
+    consoantes_especiais = len(texto) - vogais - espacos
+
+    print(
+        f"\nA quantidade de vogais no texto e {vogais}, a de espaços é {espacos} e a de consoantes ou caracteres especiais é de {consoantes_especiais}"
+    )
 
 
 tentativas = 0
@@ -66,16 +131,13 @@ while tentativas < 5:
             bhaskara(int(input()), int(input()), int(input()))
         elif opcao == 3:
             print("Digite ano, mês e dia ")
-            confereData(int(input()), int(input()), int(input()))
+            confereData()
         elif opcao == 4:
-            print("Digite um texto ")
-            tamanhoTexto(input())
+            tamanhoTexto()
         elif opcao == 5:
-            print("Escreva um cpf ")
-            analisaCPF(input())
+            analisaCPF()
         elif opcao == 6:
-            print("Digite um texto ")
-            contaCaracteres(input())
+            contaCaracteres()
         else:
             print("Obrigado por utilizar nosso sistema.")
             break
