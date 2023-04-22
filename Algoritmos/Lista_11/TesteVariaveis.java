@@ -26,11 +26,6 @@ public class TesteVariaveis
         System.out.println(a*b*c);
         System.out.println(texto1+texto2);
         System.out.println(letra);
-        
-    }
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return 1;
+        System.out.printf("%s %d", texto1, x); 
     }
 }
