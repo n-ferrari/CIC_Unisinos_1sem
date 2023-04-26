@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Computador
+comment0.text=\n\ Write\ a\ description\ of\ class\ Computador\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=marca\ velocidade\ ano_fab\ novo
+comment1.target=Computador(java.lang.String,\ double,\ int,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Computador\n
+comment2.params=
+comment2.target=java.lang.String\ getMarca()
+comment3.params=marca
+comment3.target=void\ setMarca(java.lang.String)
+comment4.params=
+comment4.target=double\ getVelocidade()
+comment5.params=velocidade
+comment5.target=void\ setVelocidade(double)
+comment6.params=
+comment6.target=int\ getAnoFab()
+comment7.params=ano_fab
+comment7.target=void\ setAnoFab(int)
+comment8.params=
+comment8.target=boolean\ getNovo()
+comment9.params=novo
+comment9.target=void\ setNovo(boolean)
+numComments=10
