@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Exercicios
+comment0.text=\n\n\ @Nathalia\ Ferrari\n\ @Lista\ 15\n
+comment1.params=x
+comment1.target=void\ contador(int)
+comment2.params=x
+comment2.target=void\ imprimePares(int)
+comment3.params=x
+comment3.target=boolean\ verificaPrimos(int)
+numComments=4
