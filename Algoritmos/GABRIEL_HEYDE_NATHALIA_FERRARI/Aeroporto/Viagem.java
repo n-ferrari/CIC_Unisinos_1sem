@@ -3,20 +3,26 @@
  */
 public class Viagem
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private String cidade;
     private String estado;
     private double valor;
-    private int quantVendida;
+    private int quantVendida = 0;
     private int quantMaxima;
     
 
-    public Viagem(String cidade,String estado, double valor, int quantMaxima)
+    public Viagem(String cidade, String estado, double valor, int quantMaxima)
     {
-        this.cidade = "BG";
-        this.estado = "RS";
-        this.valor = 50.00;
-        quantVendida = 0;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.valor = valor;
+        this.quantMaxima = quantMaxima;
+    }
+    
+    public Viagem(String cidade, String estado, double valor)
+    {
+        this.cidade = cidade;
+        this.estado = estado;
+        this.valor = valor;
         this.quantMaxima = 120;
     }
 
@@ -62,6 +68,6 @@ public class Viagem
     
     public void imprimeInformacoes()
     {
-        System.out.println("A viagem possui destino para " + cidade + "/" + estado + " com um valor de R$" + valor + ". Esta viagem possui " + quantMaxima + " acentos disppníveis, e destes acentos foram vendidos um total de " + quantVendida + ".");
+        System.out.println("A viagem possui destino para " + cidade + "/" + estado + " com um valor de R$" + valor + ". Esta viagem possui " + quantMaxima + " assentos no total, e destes assentos foram vendidos um total de " + quantVendida + ".");
     }
 }

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Pessoa
+comment0.text=\n\ Gabriel\ Heyde\ e\ Nathalia\ Ferrari\n
+comment1.params=nome\ aquario
+comment1.target=Pessoa(java.lang.String,\ Aquario)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=Aquario\ getAquario()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=aquario
+comment5.target=void\ setAquario(Aquario)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Passagem
+comment0.text=\n\ @Gabriel\ Heyde\ e\ Nathalia\ Ferrari\n
+comment1.params=viagem\ passageiro\ valorPassagem
+comment1.target=Passagem(Viagem,\ Passageiro,\ double)
+comment2.params=viagem\ passageiro
+comment2.target=Passagem(Viagem,\ Passageiro)
+comment3.params=viagem
+comment3.target=void\ setViagem(Viagem)
+comment4.params=passageiro
+comment4.target=void\ setPassageiro(Passageiro)
+comment5.params=valorPassagem
+comment5.target=void\ setValorPassagem(double)
+comment6.params=
+comment6.target=Viagem\ getViagem()
+comment7.params=
+comment7.target=Passageiro\ getPassageiro()
+comment8.params=
+comment8.target=double\ getValorPassagem()
+comment9.params=
+comment9.target=void\ imprimeInformacoes()
+numComments=10

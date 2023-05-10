@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Aeroporto
+comment0.text=\n\ @Gabriel\ Heyde\ e\ Nathalia\ Ferrari\n
+comment1.params=nome
+comment1.target=Aeroporto(java.lang.String)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ Passageiro\n
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=nome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=
+comment4.target=double\ getvalorTotal()
+comment5.params=valorTotal
+comment5.target=void\ setvalorTotal(double)
+comment6.params=
+comment6.target=void\ imprimeInformacoes()
+comment7.params=passageiro\ viagem
+comment7.target=Passagem\ compraPassagem(Passageiro,\ Viagem)
+numComments=8
