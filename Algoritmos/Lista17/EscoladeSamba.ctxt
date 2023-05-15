@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=EscoladeSamba
+comment0.text=\n\ Write\ a\ description\ of\ class\ EscoladeSamba\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ desfilar()
+comment2.params=nota
+comment2.target=int\ calcularNota(int)
+comment3.params=vip
+comment3.target=void\ criarIngresso(java.lang.String)
+comment4.params=
+comment4.target=void\ cadastrarPassista()
+numComments=5

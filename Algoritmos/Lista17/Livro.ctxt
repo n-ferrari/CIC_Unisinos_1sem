@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Livro
+comment0.text=\n\ Write\ a\ description\ of\ class\ Livro\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=nome
+comment1.target=void\ cadastrarAutor(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ verificarISBN()
+comment3.params=
+comment3.target=boolean\ disponibilidade()
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Melancia
+comment1.params=nome\ preco\ precoAdicional\ epoca
+comment1.target=Melancia(java.lang.String,\ double,\ double,\ boolean)
+comment2.params=
+comment2.target=double\ calculaPrecoFinal()
+numComments=3
