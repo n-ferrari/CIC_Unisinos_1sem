@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Corredor
+comment0.text=\n\ Nathalia\ Ferrari\n
+comment1.params=nome\ idade\ peso\ competicao
+comment1.target=Corredor(java.lang.String,\ int,\ double,\ Competicao)
+comment2.params=
+comment2.target=Competicao\ getCompeticao()
+comment3.params=
+comment3.target=void\ SetCompeticao()
+comment4.params=
+comment4.target=double\ getPeso()
+comment5.params=peso
+comment5.target=void\ setPeso(double)
+comment6.params=
+comment6.target=void\ imprimeCompeticao()
+comment7.params=
+comment7.target=void\ imprimeInfo()
+numComments=8

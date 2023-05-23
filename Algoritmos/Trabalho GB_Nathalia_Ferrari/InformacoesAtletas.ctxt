@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=InformacoesAtletas
+comment0.text=\n\ Nathalia\ Ferrari\n
+comment1.params=a
+comment1.target=void\ imprimeExclusivosAtleta(Atleta)
+comment2.params=a
+comment2.target=void\ imprimeInformacoesAtleta(Atleta)
+numComments=3

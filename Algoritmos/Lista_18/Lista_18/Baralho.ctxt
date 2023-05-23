@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Baralho
+comment0.text=\n\ Write\ a\ description\ of\ class\ Baralho\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Baralho()
+comment2.params=
+comment2.target=void\ imprimeBaralho()
+comment3.params=
+comment3.target=void\ embaralha()
+comment4.params=
+comment4.target=Carta\ daCarta()
+comment5.params=carta
+comment5.target=boolean\ temCarta(Carta)
+numComments=6

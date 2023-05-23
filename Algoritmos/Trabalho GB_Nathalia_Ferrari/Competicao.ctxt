@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Competicao
+comment0.text=\n\ Nathalia\ Ferrari\n
+comment1.params=nome\ data
+comment1.target=Competicao(java.lang.String,\ Data)
+comment2.params=nome
+comment2.target=void\ setNome(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=data
+comment4.target=void\ setData(Data)
+comment5.params=
+comment5.target=Data\ getData()
+comment6.params=
+comment6.target=void\ imprimeData()
+numComments=7
