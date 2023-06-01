@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BancaDeChurros
+comment1.params=sabor
+comment1.target=int\ estoqueChurros(java.lang.String)
+comment2.params=
+comment2.target=double\ valorTotal()
+comment3.params=sabor
+comment3.target=boolean\ vendeChurros(java.lang.String)
+comment4.params=
+comment4.target=void\ imprimeChurros()
+comment5.params=nome\ sabor\ quant
+comment5.target=void\ lePedidos(java.lang.String,\ java.lang.String,\ int)
+numComments=6

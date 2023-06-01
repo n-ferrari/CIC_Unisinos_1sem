@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Churros
+comment1.params=sabor\ preco
+comment1.target=Churros(java.lang.String,\ double)
+comment2.params=sabor
+comment2.target=Churros(java.lang.String)
+comment3.params=preco
+comment3.target=Churros(double)
+comment4.params=
+comment4.target=java.lang.String\ getSabor()
+comment5.params=sabor
+comment5.target=void\ setSabor(java.lang.String)
+comment6.params=
+comment6.target=double\ getPreco()
+comment7.params=preco
+comment7.target=void\ setPreco(double)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
