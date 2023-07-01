@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Time
+comment1.params=name\ figurinha
+comment1.target=Time(java.lang.String,\ Figurinha[])
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=Figurinha[]\ getFigurinha()
+comment5.params=figurinha
+comment5.target=void\ setFigurinha(Figurinha[])
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=figurinha
+comment7.target=void\ insereFigurinha(Figurinha)
+comment8.params=figurinha
+comment8.target=void\ removeFigurinha(Figurinha)
+numComments=9

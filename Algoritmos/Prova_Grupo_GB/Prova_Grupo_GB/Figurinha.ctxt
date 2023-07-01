@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Figurinha
+comment1.params=
+comment1.target=java.lang.String\ getNomeTime()
+comment2.params=nomeTime
+comment2.target=void\ setNomeTime(java.lang.String)
+comment3.params=
+comment3.target=int\ getNumeroFigurinha()
+comment4.params=numeroFigurinha
+comment4.target=void\ setNumeroFigurinha(int)
+comment5.params=
+comment5.target=int\ getQuantidade()
+comment6.params=quantidade
+comment6.target=void\ setQuantidade(int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=void\ incrementaQuantidade()
+numComments=9
